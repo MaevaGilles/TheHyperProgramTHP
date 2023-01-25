@@ -6,12 +6,19 @@ const PageList = (argument = '') => {
 
     const displayResults = (articles) => {
       const resultsContent = articles.map((article) => (
-        `<article class="cardGame">
-          <h1>${article.name}</h1>
+        
+        `<div class="cards">
+        <article class="card">
+         <header>
           <a href="#pagedetail/${article.id}">
-          <img src="${article.background_image}" id=image alt="${article.name}">
+            <h1>${article.name}</h1>
           </a>
-        </article>`
+        </header> 
+        
+          <img src="${article.background_image}" id=image alt="${article.name}">
+    
+        </article></div>`
+
       ));
       const resultsContainer = document.querySelector('.page-list .articles');
       resultsContainer.innerHTML = resultsContent.join("\n");
@@ -27,8 +34,8 @@ const PageList = (argument = '') => {
         });
     };
 
-    
-    fetchList(`https://api.rawg.io/api/games?key=ca4e367fa7684d7e9173ef3c0ddc9f72`, cleanedArgument);
+
+    fetchList(`https://api.rawg.io/api/games?key=ca4e367fa7684d7e9173ef3c0ddc9f72&page_size=9`, cleanedArgument);
   };
 
   const render = () => {

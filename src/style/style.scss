@@ -4,24 +4,18 @@ body {
     font: normal; color : white
 }
 
-.cardGame {
-    
-    background:none;
-    height: 250px;
-    position: static;
-    overflow: hidden;
-}
 nav{
-    position: fixed;
+    position: static;
     width: 100%;
-    height: 50px;
+    height: 10%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0) ;
+   ;
 }
 nav p {
-    position: fixed;
+    position: absolute;
     left: 5%;
+    top: 1%;
     font-size: xx-large;
     top: -10;
 }
@@ -29,12 +23,15 @@ nav p {
 #titlenav{
     color: red;
     font-size: x-large;
-    margin-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
-#search{
+
+#searchbar{
+    position: absolute;
+    left: 5%;
+    top: 1%;
     border: 1px solid black;
     margin-top: 15px;
     margin-left: 60%;
@@ -59,3 +56,38 @@ nav p {
 #image {
 height: 200px;
 }
+
+
+.articles {
+    display: grid;
+    margin: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+}
+
+.cards{
+    padding-bottom: 10px;
+  
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      
+    } 
+  
+    p {
+      display: flex;
+      justify-content: flex-start;
+      gap : 10px;
+    }
+  
+    a {
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+      
+    }
+    
+  }
+    
