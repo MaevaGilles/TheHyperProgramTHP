@@ -24,3 +24,5 @@
   <li>Je n'ai pas bien saisi la méthode d'injection from API </li>
   <li>J'ai besoin d'entrainement</li>
 </ul>
+
+Thomas EDISON a échoué tant de fois avant de réussir à inventer l'ampoule électrique que l'un de ses collaborateurs lui a demandé comment il pouvait supporterautant d'échecs, des milliers d'échecs. Ce à quoi EDISON a répondu <q>Je n'ai pas échoué des milliers de fois, j'ai réussi des milliers de tentatives qui n'ont pas fonctionné.</q>
