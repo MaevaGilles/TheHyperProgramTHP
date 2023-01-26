@@ -25,7 +25,7 @@ Résultat : au bout de 3 jours je présente quelquechose de moche et non fonctio
 <h2>✅ Quelles sont les choses positives que je tire de ce projet ?✅ </h2>
   <ul>
     <li>J'ai réussi à me perfectionner sur les bases de JS</li>
-    <li>J'ai compris l'importance de travailler en groupe (car Dylan m'a crié en me disant que je devais commencer à taffer en même temps que eu pour rencontrer les mêmes bug que eux en même temps</li>
+    <li>J'ai compris l'importance de travailler en groupe (car Dylan m'a crié en me disant que je devais commencer à taffer en même temps que eux pour rencontrer les mêmes bug que eux en même temps)</li>
     <li>J'ai bien bossé mon CSS au travers de différents tests </li>
     <li>J'ai pris le temps de rédiger un ReadMe</li>
   </ul>
